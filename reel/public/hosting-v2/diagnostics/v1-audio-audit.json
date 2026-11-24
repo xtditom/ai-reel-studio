@@ -1,0 +1,52 @@
+{
+  "bandHz": [
+    6500,
+    10500
+  ],
+  "method": "20 ms RMS frames, active threshold 0.011, measured after decode at 24 kHz",
+  "v1Narration": {
+    "activeFrames": 235,
+    "totalFrames": 350,
+    "highBandActiveDbfs": -33.5,
+    "highBandOtherDbfs": -62.3,
+    "highBandOverallDbfs": -35.3
+  },
+  "v1MusicAtMixLevel": {
+    "highBandOverallDbfs": -73.7
+  },
+  "v1Effects": "No separate effects track.",
+  "resynthesizedExcerpt": {
+    "text": "many sites run on one server.",
+    "raw": {
+      "activeFrames": 75,
+      "totalFrames": 86,
+      "highBandActiveDbfs": -40.3,
+      "highBandOtherDbfs": -62.2,
+      "highBandOverallDbfs": -40.8,
+      "integratedLufs": "-25.94"
+    },
+    "processed": {
+      "activeFrames": 78,
+      "totalFrames": 86,
+      "highBandActiveDbfs": -32.8,
+      "highBandOtherDbfs": -53.4,
+      "highBandOverallDbfs": -33.3,
+      "integratedLufs": "-18.52"
+    },
+    "highBandGainDb": 7.5
+  },
+  "interpretation": "This measures high-band energy and correlation, not a perceptual test of hiss.",
+  "comparison": {
+    "v1ExcerptLufs": "-18.60",
+    "v2NarrationLufs": "-18.61",
+    "v2Narration": {
+      "activeFrames": 1436,
+      "totalFrames": 2085,
+      "highBandActiveDbfs": -37.4,
+      "highBandOtherDbfs": -66.9,
+      "highBandOverallDbfs": -39.0
+    },
+    "v2MinusV1ActiveBandDb": -3.9,
+    "comparisonScope": "The versions use different scripts and voice presets."
+  }
+}

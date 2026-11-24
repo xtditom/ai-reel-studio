@@ -1,0 +1,125 @@
+{
+  "durationSeconds": 41.7,
+  "targetSeconds": [
+    40,
+    45
+  ],
+  "speechSeconds": 35.008,
+  "wordCount": 103,
+  "maximumMusicDuckingDb": -7.54,
+  "dry": {
+    "input_i": "-23.46",
+    "input_tp": "-0.73",
+    "input_lra": "3.00",
+    "input_thresh": "-33.97",
+    "output_i": "-18.85",
+    "output_tp": "-2.00",
+    "output_lra": "2.50",
+    "output_thresh": "-29.34",
+    "normalization_type": "dynamic",
+    "target_offset": "0.85"
+  },
+  "narration": {
+    "input_i": "-18.61",
+    "input_tp": "-2.81",
+    "input_lra": "3.00",
+    "input_thresh": "-29.13",
+    "output_i": "-18.33",
+    "output_tp": "-2.23",
+    "output_lra": "2.20",
+    "output_thresh": "-28.83",
+    "normalization_type": "dynamic",
+    "target_offset": "0.33"
+  },
+  "mix": {
+    "input_i": "-18.59",
+    "input_tp": "-5.52",
+    "input_lra": "3.00",
+    "input_thresh": "-29.50",
+    "output_i": "-18.32",
+    "output_tp": "-5.00",
+    "output_lra": "2.10",
+    "output_thresh": "-29.12",
+    "normalization_type": "dynamic",
+    "target_offset": "0.32"
+  },
+  "alignment": [
+    {
+      "id": "neighbors",
+      "asr": "CHEAP HOSTING HAS A CATCH NEIGHBORS",
+      "caption": "Cheap hosting has a catch. Neighbors.",
+      "characterAgreement": 1.0,
+      "reviewWords": []
+    },
+    {
+      "id": "building",
+      "asr": "THINK OF AN APARTMENT BUILDING",
+      "caption": "Think of an apartment building.",
+      "characterAgreement": 1.0,
+      "reviewWords": []
+    },
+    {
+      "id": "kitchen",
+      "asr": "WITH SHARED HOSTING EVERY SIGHT USES THE SAME KITCHEN",
+      "caption": "With shared hosting, every site uses the same kitchen.",
+      "characterAgreement": 0.966,
+      "reviewWords": []
+    },
+    {
+      "id": "traffic",
+      "asr": "ONE NEIGHBOR GETS A RUSH OF TRAFFIC AND YOUR SIGHT MIGHT HAVE TO WAIT",
+      "caption": "One neighbor gets a rush of traffic, and your site might have to wait.",
+      "characterAgreement": 0.973,
+      "reviewWords": []
+    },
+    {
+      "id": "apartment",
+      "asr": "WITH A V P S YOU GET YOUR OWN APARTMENT",
+      "caption": "With a VPS, you get your own apartment.",
+      "characterAgreement": 1.0,
+      "reviewWords": []
+    },
+    {
+      "id": "allocation",
+      "asr": "SAME BUILDING BUT YOUR OWN OPERATING SYSTEM AND A SET SHARE OF RESOURCES",
+      "caption": "Same building, but your own operating system and a set share of resources.",
+      "characterAgreement": 1.0,
+      "reviewWords": []
+    },
+    {
+      "id": "blog",
+      "asr": "I'D START WITH SHARED HOASTING FOR A BLOG OR A SMALL SIGHT",
+      "caption": "I'd start with shared hosting for a blog or a small site.",
+      "characterAgreement": 0.956,
+      "reviewWords": []
+    },
+    {
+      "id": "app",
+      "asr": "I'D PAY MORE FOR A V P S IF I NEEDED TO RUN CUSTOM'S SOFTWARE",
+      "caption": "I'd pay more for a VPS if I needed to run custom software.",
+      "characterAgreement": 0.989,
+      "reviewWords": []
+    },
+    {
+      "id": "upkeep",
+      "asr": "WITH AN UNMANAGED V P S I'D HANDLE THE UPKEEP TOO",
+      "caption": "With an unmanaged VPS, I'd handle the upkeep, too.",
+      "characterAgreement": 1.0,
+      "reviewWords": []
+    },
+    {
+      "id": "project",
+      "asr": "WHAT ARE YOU BUILDING",
+      "caption": "What are you building?",
+      "characterAgreement": 1.0,
+      "reviewWords": []
+    },
+    {
+      "id": "ask",
+      "asr": "WOULD YOU SHARE THE KITCHEN OR GET YOUR OWN PLACE",
+      "caption": "Would you share the kitchen or get your own place?",
+      "characterAgreement": 1.0,
+      "reviewWords": []
+    }
+  ]
+}

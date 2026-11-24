@@ -1,0 +1,124 @@
+{
+  "hook": [
+    {
+      "text": "Shared hosting or VPS?",
+      "startMs": 120,
+      "endMs": 1648,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Here’s what changes.",
+      "startMs": 1728,
+      "endMs": 2781,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "shared": [
+    {
+      "text": "With shared hosting,",
+      "startMs": 120,
+      "endMs": 1178,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "many sites run on one server.",
+      "startMs": 1258,
+      "endMs": 2997,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "They draw from the same",
+      "startMs": 3077,
+      "endMs": 4195,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "pool of resources.",
+      "startMs": 4275,
+      "endMs": 5497,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "vps": [
+    {
+      "text": "A VPS is an isolated virtual machine.",
+      "startMs": 120,
+      "endMs": 2843,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "It gets its own operating system",
+      "startMs": 2923,
+      "endMs": 4724,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "and a resource allocation.",
+      "startMs": 4804,
+      "endMs": 6271,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "comparison": [
+    {
+      "text": "Shared usually costs less.",
+      "startMs": 120,
+      "endMs": 1633,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "VPS gives you more control",
+      "startMs": 1713,
+      "endMs": 3529,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "and allocated resources.",
+      "startMs": 3609,
+      "endMs": 5173,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Shared is typically easier to manage.",
+      "startMs": 5253,
+      "endMs": 7276,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "verdict": [
+    {
+      "text": "Shared fits simple sites.",
+      "startMs": 120,
+      "endMs": 1539,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Choose VPS for custom apps",
+      "startMs": 1619,
+      "endMs": 3390,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "or growing workloads.",
+      "startMs": 3470,
+      "endMs": 4732,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ]
+}
