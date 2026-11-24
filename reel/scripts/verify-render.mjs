@@ -9,7 +9,7 @@ const metadata = JSON.parse(
       "-v",
       "error",
       "-show_entries",
-      "format=format_name,duration:stream=codec_type,codec_name,width,height,pix_fmt,r_frame_rate,avg_frame_rate,nb_frames,duration,sample_rate,channels",
+      "format=format_name,duration:stream=codec_type,codec_name,width,height,pix_fmt,color_range,r_frame_rate,avg_frame_rate,nb_frames,duration,sample_rate,channels",
       "-of",
       "json",
       file,
@@ -24,7 +24,11 @@ assert.ok(video, "Missing video stream");
 assert.ok(audio, "Missing audio stream");
 assert.ok(metadata.format.format_name.split(",").includes("mp4"));
 assert.equal(video.codec_name, "h264");
-assert.equal(video.pix_fmt, "yuv420p");
+// Some FFprobe versions label full-range 4:2:0 as yuvj420p.
+assert.ok(
+  ["yuv420p", "yuvj420p"].includes(video.pix_fmt),
+  `Expected 8-bit 4:2:0 video, got ${video.pix_fmt}`,
+);
 assert.deepEqual([video.width, video.height], [1080, 1920]);
 assert.equal(video.r_frame_rate, "30/1");
 assert.equal(video.avg_frame_rate, "30/1");
