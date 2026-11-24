@@ -3,44 +3,44 @@
     {
       "text": "Shared hosting or VPS?",
       "startMs": 120,
-      "endMs": 1653,
+      "endMs": 1648,
       "timestampMs": null,
       "confidence": null
     },
     {
       "text": "Here’s what changes.",
-      "startMs": 1733,
-      "endMs": 2786,
+      "startMs": 1728,
+      "endMs": 2781,
       "timestampMs": null,
       "confidence": null
     }
   ],
   "shared": [
     {
-      "text": "On shared hosting,",
+      "text": "With shared hosting,",
       "startMs": 120,
-      "endMs": 1196,
+      "endMs": 1178,
       "timestampMs": null,
       "confidence": null
     },
     {
       "text": "many sites run on one server.",
-      "startMs": 1276,
-      "endMs": 3016,
+      "startMs": 1258,
+      "endMs": 2997,
       "timestampMs": null,
       "confidence": null
     },
     {
       "text": "They draw from the same",
-      "startMs": 3096,
-      "endMs": 4214,
+      "startMs": 3077,
+      "endMs": 4195,
       "timestampMs": null,
       "confidence": null
     },
     {
       "text": "pool of resources.",
-      "startMs": 4294,
-      "endMs": 5516,
+      "startMs": 4275,
+      "endMs": 5497,
       "timestampMs": null,
       "confidence": null
     }
@@ -56,14 +56,14 @@
     {
       "text": "It gets its own operating system",
       "startMs": 2923,
-      "endMs": 4723,
+      "endMs": 4724,
       "timestampMs": null,
       "confidence": null
     },
     {
       "text": "and a resource allocation.",
-      "startMs": 4803,
-      "endMs": 6269,
+      "startMs": 4804,
+      "endMs": 6271,
       "timestampMs": null,
       "confidence": null
     }
@@ -72,28 +72,28 @@
     {
       "text": "Shared usually costs less.",
       "startMs": 120,
-      "endMs": 1635,
+      "endMs": 1633,
       "timestampMs": null,
       "confidence": null
     },
     {
       "text": "VPS gives you more control",
-      "startMs": 1715,
-      "endMs": 3531,
+      "startMs": 1713,
+      "endMs": 3529,
       "timestampMs": null,
       "confidence": null
     },
     {
       "text": "and allocated resources.",
-      "startMs": 3611,
-      "endMs": 5175,
+      "startMs": 3609,
+      "endMs": 5173,
       "timestampMs": null,
       "confidence": null
     },
     {
       "text": "Shared is typically easier to manage.",
-      "startMs": 5255,
-      "endMs": 7278,
+      "startMs": 5253,
+      "endMs": 7276,
       "timestampMs": null,
       "confidence": null
     }
@@ -102,20 +102,20 @@
     {
       "text": "Shared fits simple sites.",
       "startMs": 120,
-      "endMs": 1541,
+      "endMs": 1539,
       "timestampMs": null,
       "confidence": null
     },
     {
       "text": "Choose VPS for custom apps",
-      "startMs": 1621,
-      "endMs": 3391,
+      "startMs": 1619,
+      "endMs": 3390,
       "timestampMs": null,
       "confidence": null
     },
     {
       "text": "or growing workloads.",
-      "startMs": 3471,
+      "startMs": 3470,
       "endMs": 4732,
       "timestampMs": null,
       "confidence": null

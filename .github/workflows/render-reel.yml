@@ -37,7 +37,9 @@ jobs:
             npm run render -- --concurrency=2 --browser-executable="$chromium"
           fi
       - name: Verify export
-        run: npm run --silent verify | tee out/ffprobe.json
+        run: |
+          npm run --silent verify > out/ffprobe.json
+          cat out/ffprobe.json
       - uses: actions/upload-artifact@v6
         with:
           name: shared-vs-vps-reel
