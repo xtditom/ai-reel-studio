@@ -1,0 +1,45 @@
+[
+  {
+    "id": "hook",
+    "duration": 3,
+    "lines": ["Shared hosting or VPS?", "Here’s what changes."]
+  },
+  {
+    "id": "shared",
+    "duration": 7,
+    "lines": [
+      "On shared hosting,",
+      "many sites run on one server.",
+      "They draw from the same",
+      "pool of resources."
+    ]
+  },
+  {
+    "id": "vps",
+    "duration": 7,
+    "lines": [
+      "A VPS is an isolated virtual machine.",
+      "It gets its own operating system",
+      "and a resource allocation."
+    ]
+  },
+  {
+    "id": "comparison",
+    "duration": 8,
+    "lines": [
+      "Shared usually costs less.",
+      "VPS gives you more control",
+      "and allocated resources.",
+      "Shared is typically easier to manage."
+    ]
+  },
+  {
+    "id": "verdict",
+    "duration": 5,
+    "lines": [
+      "Shared fits simple sites.",
+      "Choose VPS for custom apps",
+      "or growing workloads."
+    ]
+  }
+]

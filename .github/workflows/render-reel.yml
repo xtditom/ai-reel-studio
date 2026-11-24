@@ -1,0 +1,48 @@
+name: Render Instagram Reel
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'reel/**'
+      - '.github/workflows/render-reel.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: reel
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: reel/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - name: Install FFprobe
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Render with Remotion
+        run: |
+          if npm exec -- remotion browser ensure; then
+            npm run render -- --concurrency=2
+          else
+            chromium="$(command -v google-chrome || command -v chromium)"
+            npm run render -- --concurrency=2 --browser-executable="$chromium"
+          fi
+      - name: Verify export
+        run: npm run --silent verify | tee out/ffprobe.json
+      - uses: actions/upload-artifact@v6
+        with:
+          name: shared-vs-vps-reel
+          path: |
+            reel/out/shared-vs-vps.mp4
+            reel/out/ffprobe.json
+          if-no-files-found: error
+          retention-days: 14
