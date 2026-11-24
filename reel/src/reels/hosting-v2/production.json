@@ -1,0 +1,142 @@
+{
+  "title": "Shared Hosting vs VPS Hosting",
+  "assetPath": "hosting-v2",
+  "theme": "midnight",
+  "cutStyle": "match",
+  "captionStyle": "highlight",
+  "fps": 30,
+  "targetSeconds": [40, 45],
+  "leadIn": 0.14,
+  "endHold": 1.4,
+  "voice": {
+    "engine": "kokoro-onnx",
+    "voice": "am_michael",
+    "language": "en-us",
+    "speed": 0.94
+  },
+  "pronunciations": {
+    "VPS": "V. P. S."
+  },
+  "audition": {
+    "text": "Cheap hosting has a catch. Neighbors. With a VPS, you get your own apartment.",
+    "takes": [
+      {
+        "id": "bella-conversational",
+        "voice": "af_bella",
+        "speed": 1.0,
+        "delivery": "Conversational"
+      },
+      {
+        "id": "heart-bright",
+        "voice": "af_heart",
+        "speed": 1.04,
+        "delivery": "Bright"
+      },
+      {
+        "id": "michael-measured",
+        "voice": "am_michael",
+        "speed": 0.94,
+        "delivery": "Measured"
+      },
+      {
+        "id": "nova-relaxed",
+        "voice": "af_nova",
+        "speed": 0.96,
+        "delivery": "Relaxed"
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "intent": "Show the tension between a low price and competing for shared resources.",
+      "beats": [
+        {
+          "id": "neighbors",
+          "text": "Cheap hosting has a catch. Neighbors.",
+          "pauseAfter": 0.42
+        }
+      ]
+    },
+    {
+      "id": "shared",
+      "intent": "Move inside the building and demonstrate contention around a single kitchen.",
+      "beats": [
+        {
+          "id": "building",
+          "text": "Think of an apartment building.",
+          "pauseAfter": 0.3
+        },
+        {
+          "id": "kitchen",
+          "text": "With shared hosting, every site uses the same kitchen.",
+          "pauseAfter": 0.36
+        },
+        {
+          "id": "traffic",
+          "text": "One neighbor gets a rush of traffic, and your site might have to wait.",
+          "pauseAfter": 0.9,
+          "effect": "queue"
+        }
+      ]
+    },
+    {
+      "id": "vps",
+      "intent": "Reveal separate virtual environments over one underlying host.",
+      "beats": [
+        {
+          "id": "apartment",
+          "text": "With a VPS, you get your own apartment.",
+          "pauseAfter": 0.36,
+          "effect": "unlock"
+        },
+        {
+          "id": "allocation",
+          "text": "Same building, but your own operating system and a set share of resources.",
+          "pauseAfter": 0.9,
+          "effect": "partition"
+        }
+      ]
+    },
+    {
+      "id": "choice",
+      "intent": "Translate the analogy into practical trade-offs without invented prices.",
+      "beats": [
+        {
+          "id": "blog",
+          "text": "I'd start with shared hosting for a blog or a small site.",
+          "pauseAfter": 0.33
+        },
+        {
+          "id": "app",
+          "text": "I'd pay more for a VPS if I needed to run custom software.",
+          "pauseAfter": 0.31,
+          "effect": "switch"
+        },
+        {
+          "id": "upkeep",
+          "text": "With an unmanaged VPS, I'd handle the upkeep, too.",
+          "pauseAfter": 0.8
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "intent": "Give viewers a concrete choice to answer with their own project in mind.",
+      "beats": [
+        {
+          "id": "project",
+          "text": "What are you building?",
+          "pauseAfter": 0.46,
+          "speed": 0.96
+        },
+        {
+          "id": "ask",
+          "text": "Would you share the kitchen or get your own place?",
+          "pauseAfter": 0.0,
+          "speed": 0.97
+        }
+      ]
+    }
+  ]
+}

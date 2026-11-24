@@ -2,6 +2,12 @@ name: Render Instagram Reel
 
 on:
   workflow_dispatch:
+    inputs:
+      version:
+        description: Reel version
+        type: choice
+        default: v2
+        options: [v2, v1]
   pull_request:
     paths:
       - 'reel/**'
@@ -14,6 +20,8 @@ jobs:
   render:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      REEL_VERSION: ${{ inputs.version || 'v2' }}
     defaults:
       run:
         working-directory: reel
@@ -26,25 +34,50 @@ jobs:
           cache-dependency-path: reel/package-lock.json
       - run: npm ci
       - run: npm run lint
-      - name: Install FFprobe
+      - name: Install FFmpeg and FFprobe
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Render with Remotion
+        shell: bash
         run: |
-          if npm exec -- remotion browser ensure; then
-            npm run render -- --concurrency=2
-          else
-            chromium="$(command -v google-chrome || command -v chromium)"
-            npm run render -- --concurrency=2 --browser-executable="$chromium"
+          script=render
+          if [[ "$REEL_VERSION" == v2 ]]; then
+            script=render:v2
           fi
-      - name: Verify export
+          extra=()
+          if ! npm exec -- remotion browser ensure; then
+            chromium="$(command -v google-chrome || command -v chromium)"
+            extra=(--browser-executable="$chromium")
+          fi
+          npm run "$script" -- --concurrency=2 "${extra[@]}"
+      - name: Verify Version 1
+        if: env.REEL_VERSION == 'v1'
+        run: npm run --silent verify > out/ffprobe.json
+      - name: Review Version 2 media
+        if: env.REEL_VERSION == 'v2'
         run: |
-          npm run --silent verify > out/ffprobe.json
-          cat out/ffprobe.json
+          npm run --silent verify:v2 > out/v2-quality.json
+          npm run previews:v2
       - uses: actions/upload-artifact@v6
+        if: env.REEL_VERSION == 'v1'
         with:
           name: shared-vs-vps-reel
           path: |
             reel/out/shared-vs-vps.mp4
             reel/out/ffprobe.json
+          if-no-files-found: error
+          retention-days: 14
+      - uses: actions/upload-artifact@v6
+        if: env.REEL_VERSION == 'v2'
+        with:
+          name: shared-vs-vps-v2
+          path: |
+            reel/out/shared-vs-vps-v2.mp4
+            reel/out/v2-quality.json
+            reel/out/previews/
+            reel/public/hosting-v2/auditions/
+            reel/public/hosting-v2/diagnostics/
+            reel/public/hosting-v2/audio-check.json
+            reel/public/hosting-v2/narration.wav
+            reel/public/hosting-v2/*.flac
           if-no-files-found: error
           retention-days: 14

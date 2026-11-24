@@ -8,7 +8,10 @@
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc",
     "render": "remotion render HostingExplained out/shared-vs-vps.mp4",
-    "verify": "node scripts/verify-render.mjs"
+    "verify": "node scripts/verify-render.mjs",
+    "render:v2": "remotion render HostingExplainedV2 out/shared-vs-vps-v2.mp4",
+    "verify:v2": "node scripts/production/check-v2.mjs",
+    "previews:v2": "node scripts/production/previews.mjs"
   },
   "repository": {},
   "license": "UNLICENSED",

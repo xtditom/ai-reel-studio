@@ -1,0 +1,1045 @@
+{
+  "fps": 30,
+  "durationFrames": 1251,
+  "scenes": [
+    {
+      "id": "hook",
+      "from": 0,
+      "duration": 92,
+      "beats": [
+        {
+          "id": "neighbors",
+          "startMs": 140,
+          "endMs": 2624,
+          "captions": [
+            {
+              "text": "Cheap hosting has a catch.",
+              "startMs": 140,
+              "endMs": 1700,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "Cheap",
+                  "startMs": 140,
+                  "endMs": 420,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " hosting",
+                  "startMs": 420,
+                  "endMs": 860,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " has",
+                  "startMs": 860,
+                  "endMs": 1060,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " a",
+                  "startMs": 1060,
+                  "endMs": 1220,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " catch.",
+                  "startMs": 1220,
+                  "endMs": 1700,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            },
+            {
+              "text": "Neighbors.",
+              "startMs": 1700,
+              "endMs": 2624,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "Neighbors.",
+                  "startMs": 1700,
+                  "endMs": 2624,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shared",
+      "from": 92,
+      "duration": 326,
+      "beats": [
+        {
+          "id": "building",
+          "startMs": 3044,
+          "endMs": 4848,
+          "captions": [
+            {
+              "text": "Think of an apartment building.",
+              "startMs": 3044,
+              "endMs": 4848,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "Think",
+                  "startMs": 3044,
+                  "endMs": 3364,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " of",
+                  "startMs": 3364,
+                  "endMs": 3524,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " an",
+                  "startMs": 3524,
+                  "endMs": 3724,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " apartment",
+                  "startMs": 3724,
+                  "endMs": 4364,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " building.",
+                  "startMs": 4364,
+                  "endMs": 4848,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kitchen",
+          "startMs": 5148,
+          "endMs": 8655,
+          "captions": [
+            {
+              "text": "With shared hosting,",
+              "startMs": 5148,
+              "endMs": 6428,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "With",
+                  "startMs": 5148,
+                  "endMs": 5308,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " shared",
+                  "startMs": 5308,
+                  "endMs": 5708,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " hosting,",
+                  "startMs": 5708,
+                  "endMs": 6428,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            },
+            {
+              "text": "every site uses the same kitchen.",
+              "startMs": 6428,
+              "endMs": 8655,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "every",
+                  "startMs": 6428,
+                  "endMs": 6828,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " site",
+                  "startMs": 6828,
+                  "endMs": 7228,
+                  "timestampMs": null,
+                  "confidence": 0.75
+                },
+                {
+                  "text": " uses",
+                  "startMs": 7228,
+                  "endMs": 7668,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " the",
+                  "startMs": 7668,
+                  "endMs": 7828,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " same",
+                  "startMs": 7828,
+                  "endMs": 8148,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " kitchen.",
+                  "startMs": 8148,
+                  "endMs": 8655,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "traffic",
+          "startMs": 9015,
+          "endMs": 13004,
+          "captions": [
+            {
+              "text": "One neighbor gets a rush of traffic,",
+              "startMs": 9015,
+              "endMs": 11175,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "One",
+                  "startMs": 9015,
+                  "endMs": 9175,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " neighbor",
+                  "startMs": 9175,
+                  "endMs": 9695,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " gets",
+                  "startMs": 9695,
+                  "endMs": 9935,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " a",
+                  "startMs": 9935,
+                  "endMs": 10095,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " rush",
+                  "startMs": 10095,
+                  "endMs": 10375,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " of",
+                  "startMs": 10375,
+                  "endMs": 10615,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " traffic,",
+                  "startMs": 10615,
+                  "endMs": 11175,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            },
+            {
+              "text": "and your site might have to wait.",
+              "startMs": 11175,
+              "endMs": 13004,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "and",
+                  "startMs": 11175,
+                  "endMs": 11455,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " your",
+                  "startMs": 11455,
+                  "endMs": 11735,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " site",
+                  "startMs": 11735,
+                  "endMs": 12095,
+                  "timestampMs": null,
+                  "confidence": 0.75
+                },
+                {
+                  "text": " might",
+                  "startMs": 12095,
+                  "endMs": 12375,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " have",
+                  "startMs": 12375,
+                  "endMs": 12535,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " to",
+                  "startMs": 12535,
+                  "endMs": 12735,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " wait.",
+                  "startMs": 12735,
+                  "endMs": 13004,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            }
+          ],
+          "effect": "queue",
+          "effectMs": 10095
+        }
+      ]
+    },
+    {
+      "id": "vps",
+      "from": 418,
+      "duration": 273,
+      "beats": [
+        {
+          "id": "apartment",
+          "startMs": 13904,
+          "endMs": 16706,
+          "captions": [
+            {
+              "text": "With a VPS,",
+              "startMs": 13904,
+              "endMs": 15024,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "With",
+                  "startMs": 13904,
+                  "endMs": 14064,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " a",
+                  "startMs": 14064,
+                  "endMs": 14264,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " VPS,",
+                  "startMs": 14264,
+                  "endMs": 15024,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            },
+            {
+              "text": "you get your own apartment.",
+              "startMs": 15024,
+              "endMs": 16706,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "you",
+                  "startMs": 15024,
+                  "endMs": 15344,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " get",
+                  "startMs": 15344,
+                  "endMs": 15584,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " your",
+                  "startMs": 15584,
+                  "endMs": 15784,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " own",
+                  "startMs": 15784,
+                  "endMs": 16024,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " apartment.",
+                  "startMs": 16024,
+                  "endMs": 16706,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            }
+          ],
+          "effect": "unlock",
+          "effectMs": 16024
+        },
+        {
+          "id": "allocation",
+          "startMs": 17066,
+          "endMs": 22111,
+          "captions": [
+            {
+              "text": "Same building,",
+              "startMs": 17066,
+              "endMs": 18026,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "Same",
+                  "startMs": 17066,
+                  "endMs": 17426,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " building,",
+                  "startMs": 17426,
+                  "endMs": 18026,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            },
+            {
+              "text": "but your own operating system and a",
+              "startMs": 18026,
+              "endMs": 20466,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "but",
+                  "startMs": 18026,
+                  "endMs": 18266,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " your",
+                  "startMs": 18266,
+                  "endMs": 18546,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " own",
+                  "startMs": 18546,
+                  "endMs": 18826,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " operating",
+                  "startMs": 18826,
+                  "endMs": 19546,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " system",
+                  "startMs": 19546,
+                  "endMs": 20146,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " and",
+                  "startMs": 20146,
+                  "endMs": 20346,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " a",
+                  "startMs": 20346,
+                  "endMs": 20466,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            },
+            {
+              "text": "set share of resources.",
+              "startMs": 20466,
+              "endMs": 22111,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "set",
+                  "startMs": 20466,
+                  "endMs": 20746,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " share",
+                  "startMs": 20746,
+                  "endMs": 21066,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " of",
+                  "startMs": 21066,
+                  "endMs": 21226,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " resources.",
+                  "startMs": 21226,
+                  "endMs": 22111,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            }
+          ],
+          "effect": "partition",
+          "effectMs": 18826
+        }
+      ]
+    },
+    {
+      "id": "choice",
+      "from": 691,
+      "duration": 392,
+      "beats": [
+        {
+          "id": "blog",
+          "startMs": 23011,
+          "endMs": 26427,
+          "captions": [
+            {
+              "text": "I'd start with shared hosting for a",
+              "startMs": 23011,
+              "endMs": 24851,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "I'd",
+                  "startMs": 23011,
+                  "endMs": 23211,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " start",
+                  "startMs": 23211,
+                  "endMs": 23491,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " with",
+                  "startMs": 23491,
+                  "endMs": 23691,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " shared",
+                  "startMs": 23691,
+                  "endMs": 24091,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " hosting",
+                  "startMs": 24091,
+                  "endMs": 24531,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " for",
+                  "startMs": 24531,
+                  "endMs": 24691,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " a",
+                  "startMs": 24691,
+                  "endMs": 24851,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            },
+            {
+              "text": "blog or a small site.",
+              "startMs": 24851,
+              "endMs": 26427,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "blog",
+                  "startMs": 24851,
+                  "endMs": 25371,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " or",
+                  "startMs": 25371,
+                  "endMs": 25571,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " a",
+                  "startMs": 25571,
+                  "endMs": 25691,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " small",
+                  "startMs": 25691,
+                  "endMs": 26091,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " site.",
+                  "startMs": 26091,
+                  "endMs": 26427,
+                  "timestampMs": null,
+                  "confidence": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "app",
+          "startMs": 26757,
+          "endMs": 31163,
+          "captions": [
+            {
+              "text": "I'd pay more for a VPS if",
+              "startMs": 26757,
+              "endMs": 28957,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "I'd",
+                  "startMs": 26757,
+                  "endMs": 26957,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " pay",
+                  "startMs": 26957,
+                  "endMs": 27197,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " more",
+                  "startMs": 27197,
+                  "endMs": 27437,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " for",
+                  "startMs": 27437,
+                  "endMs": 27597,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " a",
+                  "startMs": 27597,
+                  "endMs": 27837,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " VPS",
+                  "startMs": 27837,
+                  "endMs": 28637,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " if",
+                  "startMs": 28637,
+                  "endMs": 28957,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            },
+            {
+              "text": "I needed to run custom software.",
+              "startMs": 28957,
+              "endMs": 31163,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "I",
+                  "startMs": 28957,
+                  "endMs": 29157,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " needed",
+                  "startMs": 29157,
+                  "endMs": 29517,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " to",
+                  "startMs": 29517,
+                  "endMs": 29677,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " run",
+                  "startMs": 29677,
+                  "endMs": 29957,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " custom",
+                  "startMs": 29957,
+                  "endMs": 30477,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " software.",
+                  "startMs": 30477,
+                  "endMs": 31163,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            }
+          ],
+          "effect": "switch",
+          "effectMs": 27837
+        },
+        {
+          "id": "upkeep",
+          "startMs": 31473,
+          "endMs": 35272,
+          "captions": [
+            {
+              "text": "With an unmanaged VPS,",
+              "startMs": 31473,
+              "endMs": 33233,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "With",
+                  "startMs": 31473,
+                  "endMs": 31593,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " an",
+                  "startMs": 31593,
+                  "endMs": 31753,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " unmanaged",
+                  "startMs": 31753,
+                  "endMs": 32553,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " VPS,",
+                  "startMs": 32553,
+                  "endMs": 33233,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            },
+            {
+              "text": "I'd handle the upkeep,",
+              "startMs": 33233,
+              "endMs": 34913,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "I'd",
+                  "startMs": 33233,
+                  "endMs": 33833,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " handle",
+                  "startMs": 33833,
+                  "endMs": 34193,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " the",
+                  "startMs": 34193,
+                  "endMs": 34353,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " upkeep,",
+                  "startMs": 34353,
+                  "endMs": 34913,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            },
+            {
+              "text": "too.",
+              "startMs": 34913,
+              "endMs": 35272,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "too.",
+                  "startMs": 34913,
+                  "endMs": 35272,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "from": 1083,
+      "duration": 168,
+      "beats": [
+        {
+          "id": "project",
+          "startMs": 36072,
+          "endMs": 37164,
+          "captions": [
+            {
+              "text": "What are you building?",
+              "startMs": 36072,
+              "endMs": 37164,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "What",
+                  "startMs": 36072,
+                  "endMs": 36272,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " are",
+                  "startMs": 36272,
+                  "endMs": 36392,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " you",
+                  "startMs": 36392,
+                  "endMs": 36632,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " building?",
+                  "startMs": 36632,
+                  "endMs": 37164,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ask",
+          "startMs": 37624,
+          "endMs": 40288,
+          "captions": [
+            {
+              "text": "Would you share the kitchen or get",
+              "startMs": 37624,
+              "endMs": 39304,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "Would",
+                  "startMs": 37624,
+                  "endMs": 37744,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " you",
+                  "startMs": 37744,
+                  "endMs": 37944,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " share",
+                  "startMs": 37944,
+                  "endMs": 38184,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " the",
+                  "startMs": 38184,
+                  "endMs": 38384,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " kitchen",
+                  "startMs": 38384,
+                  "endMs": 38864,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " or",
+                  "startMs": 38864,
+                  "endMs": 39064,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " get",
+                  "startMs": 39064,
+                  "endMs": 39304,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            },
+            {
+              "text": "your own place?",
+              "startMs": 39304,
+              "endMs": 40288,
+              "timestampMs": null,
+              "confidence": null,
+              "words": [
+                {
+                  "text": "your",
+                  "startMs": 39304,
+                  "endMs": 39544,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " own",
+                  "startMs": 39544,
+                  "endMs": 39864,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                },
+                {
+                  "text": " place?",
+                  "startMs": 39864,
+                  "endMs": 40288,
+                  "timestampMs": null,
+                  "confidence": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

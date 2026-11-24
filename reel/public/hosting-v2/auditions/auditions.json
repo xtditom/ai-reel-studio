@@ -1,0 +1,155 @@
+[
+  {
+    "id": "bella-conversational",
+    "voice": "af_bella",
+    "speed": 1.0,
+    "delivery": "Conversational",
+    "seconds": 4.806,
+    "alignment": {
+      "asr": "CHEAP POSTING HAS A CATCH NEIGHBORS WITH A V P S YOU GET YOUR OWN APARTMENT",
+      "caption": "Cheap hosting has a catch. Neighbors. With a VPS, you get your own apartment.",
+      "characterAgreement": 0.983,
+      "reviewWords": []
+    },
+    "raw": {
+      "input_i": "-21.61",
+      "input_tp": "-4.01",
+      "input_lra": "0.60",
+      "input_thresh": "-31.73",
+      "output_i": "-18.11",
+      "output_tp": "-2.00",
+      "output_lra": "0.30",
+      "output_thresh": "-28.21",
+      "normalization_type": "dynamic",
+      "target_offset": "0.11"
+    },
+    "processed": {
+      "input_i": "-18.41",
+      "input_tp": "-2.60",
+      "input_lra": "0.50",
+      "input_thresh": "-28.64",
+      "output_i": "-17.96",
+      "output_tp": "-2.07",
+      "output_lra": "0.40",
+      "output_thresh": "-28.06",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.04"
+    }
+  },
+  {
+    "id": "heart-bright",
+    "voice": "af_heart",
+    "speed": 1.04,
+    "delivery": "Bright",
+    "seconds": 4.558,
+    "alignment": {
+      "asr": "CLOSTING HAS A CATCH NEIGHBORS WITH A V P S YOU GET YOUR OWN APARTMENT",
+      "caption": "Cheap hosting has a catch. Neighbors. With a VPS, you get your own apartment.",
+      "characterAgreement": 0.948,
+      "reviewWords": [
+        "Cheap"
+      ]
+    },
+    "raw": {
+      "input_i": "-22.49",
+      "input_tp": "-5.14",
+      "input_lra": "0.80",
+      "input_thresh": "-32.49",
+      "output_i": "-17.69",
+      "output_tp": "-2.00",
+      "output_lra": "0.60",
+      "output_thresh": "-27.69",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.31"
+    },
+    "processed": {
+      "input_i": "-18.51",
+      "input_tp": "-2.82",
+      "input_lra": "1.00",
+      "input_thresh": "-28.51",
+      "output_i": "-17.61",
+      "output_tp": "-2.00",
+      "output_lra": "0.70",
+      "output_thresh": "-27.61",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.39"
+    }
+  },
+  {
+    "id": "michael-measured",
+    "voice": "am_michael",
+    "speed": 0.94,
+    "delivery": "Measured",
+    "seconds": 5.224,
+    "alignment": {
+      "asr": "CHEAP HOSTING HAS A CATCH NEIGHBORS WITH A V P S YOU GET YOUR OWN APARTMENT",
+      "caption": "Cheap hosting has a catch. Neighbors. With a VPS, you get your own apartment.",
+      "characterAgreement": 1.0,
+      "reviewWords": []
+    },
+    "raw": {
+      "input_i": "-23.98",
+      "input_tp": "-4.70",
+      "input_lra": "1.50",
+      "input_thresh": "-34.25",
+      "output_i": "-18.62",
+      "output_tp": "-2.00",
+      "output_lra": "1.10",
+      "output_thresh": "-28.78",
+      "normalization_type": "dynamic",
+      "target_offset": "0.62"
+    },
+    "processed": {
+      "input_i": "-18.57",
+      "input_tp": "-1.65",
+      "input_lra": "1.50",
+      "input_thresh": "-28.78",
+      "output_i": "-18.27",
+      "output_tp": "-2.00",
+      "output_lra": "1.10",
+      "output_thresh": "-28.44",
+      "normalization_type": "dynamic",
+      "target_offset": "0.27"
+    }
+  },
+  {
+    "id": "nova-relaxed",
+    "voice": "af_nova",
+    "speed": 0.96,
+    "delivery": "Relaxed",
+    "seconds": 4.494,
+    "alignment": {
+      "asr": "CLOTHING HAS A CATCH NEIGHBORS WITH A V P S YOU GET YOUR OWN APARTMENT",
+      "caption": "Cheap hosting has a catch. Neighbors. With a VPS, you get your own apartment.",
+      "characterAgreement": 0.914,
+      "reviewWords": [
+        "Cheap",
+        "hosting"
+      ]
+    },
+    "raw": {
+      "input_i": "-26.93",
+      "input_tp": "-10.11",
+      "input_lra": "0.60",
+      "input_thresh": "-37.04",
+      "output_i": "-18.00",
+      "output_tp": "-2.00",
+      "output_lra": "0.20",
+      "output_thresh": "-28.10",
+      "normalization_type": "dynamic",
+      "target_offset": "0.00"
+    },
+    "processed": {
+      "input_i": "-18.50",
+      "input_tp": "-2.86",
+      "input_lra": "0.60",
+      "input_thresh": "-28.62",
+      "output_i": "-17.90",
+      "output_tp": "-2.41",
+      "output_lra": "0.10",
+      "output_thresh": "-28.00",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.10"
+    }
+  }
+]

@@ -1,7 +1,12 @@
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
+import { readFileSync } from "node:fs";
 
 const file = process.argv[2] ?? "out/shared-vs-vps.mp4";
+const timing = process.argv[3]
+  ? JSON.parse(readFileSync(process.argv[3], "utf8"))
+  : { fps: 30, durationFrames: 900 };
+const expectedDuration = timing.durationFrames / timing.fps;
 const metadata = JSON.parse(
   execFileSync(
     "ffprobe",
@@ -30,16 +35,19 @@ assert.ok(
   `Expected 8-bit 4:2:0 video, got ${video.pix_fmt}`,
 );
 assert.deepEqual([video.width, video.height], [1080, 1920]);
-assert.equal(video.r_frame_rate, "30/1");
-assert.equal(video.avg_frame_rate, "30/1");
-assert.equal(Number(video.nb_frames), 900);
-assert.equal(Number(video.duration), 30);
-assert.ok(Math.abs(Number(metadata.format.duration) - 30) <= 1 / 30);
+assert.equal(video.r_frame_rate, `${timing.fps}/1`);
+assert.equal(video.avg_frame_rate, `${timing.fps}/1`);
+assert.equal(Number(video.nb_frames), timing.durationFrames);
+assert.ok(Math.abs(Number(video.duration) - expectedDuration) < 0.00001);
+assert.ok(
+  Math.abs(Number(metadata.format.duration) - expectedDuration) <=
+    1 / timing.fps,
+);
 assert.equal(audio.codec_name, "aac");
 assert.equal(Number(audio.sample_rate), 48000);
 assert.equal(audio.channels, 2);
 assert.ok(
-  Math.abs(Number(audio.duration) - 30) <= 1 / 30,
+  Math.abs(Number(audio.duration) - expectedDuration) <= 1 / timing.fps,
   "Audio should span the reel",
 );
 
